@@ -3,58 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subash The Boss</title>
+    <title>Subash A Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f0f2;
+        }
+        .navbar {
+            background-color: #4caf50;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .navbar .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            background-color: #45a049;
+            color: #fff;
+        }
+        .image {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #4caf50;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 10px;
+            font-size: 32px;
+        }
+        .para {
+            text-align: center;
+            color: #666;
+            font-size: 20px;
+        }
+        .para1 {
+            width: 80%;
+            margin: 20px auto;
+            color: #333;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+        .icon {
+            font-size: 28px;
+            margin: 10px;
+            color: #4caf50;
+            transition: color 0.3s;
+        }
+        .icon:hover {
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .social-container {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
     </style>
 </head>
 <body>
-    <div class="clearfix">
-        <div style="float: left;">
-           <a href="image.png" target="_blank"> <img src="https://t3.ftcdn.net/jpg/03/77/85/04/360_F_377850455_Gk0rRBzegH6YX9SZK9YbgyYyLwrVb9zi.jpg" width="300px" height="300px"></a>
-        </div>
-        <div style="float: left;margin-left: 30px;margin-top: 150px;">
-            <h1>Subash A</h1>
-            <h2>Aspiring Software Engineer</h2>
-        </div>
+
+<div class="navbar">
+    <div class="container">
+        <a class="ab" href="pf .html">Home</a>
+        <a class="ab" href="#about">About</a>
+        <a class="ab" href="education.html">Education</a>
+        <a class="ab" href="skills.html">Skills</a>
+        <a class="ab" href="http://127.0.0.1:5500/Portfolio/contact.html">Contacts</a>
+        <a class="ab" href="subashresume.pdf.pdf">Resume</a>
+        <a class="ab" href="subashresume.pdf.pdf" download="subashresume.pdf.pdf">Download</a>
     </div>
-    <div style="clear: both;"></div>
-    <div style="margin-top: 50px;">
-        <h1>Education</h1>
-        <table border="3" style="border-collapse: collapse;width: 400px; height: 200px;">
-            <tr>
-                <th>S.No</th>
-                <th>Education</th>
-                <th>Percentage</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>
-                    <form>
-                        <label>SSLC</label>
-                    </form>
-                </td>
-                <td>66.4%</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>
-                    <form>
-                        <label>HSC</label>
-                    </form>
-                </td>
-                <td>60.0%</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>
-                    <form>
-                        <label>B.E (ECE)</label>
-                    </form>
-                </td>
-                <td>Cgpa : 6.28</td>
-            </tr>
-        </table>
-    </div>
+</div>
+
+<img class="image" src="https://icon-library.com/images/no-profile-picture-icon/no-profile-picture-icon-14.jpg" alt="Profile Picture">
+<h1>Hello, I'm Subash A</h1>
+<p class="para">A Student..</p>
+<p id="about" class="para1">
+    As a passionate learner of programming languages, I am always eager to explore new technologies and enhance my coding skills.
+    I am currently studying at Sri Krishna College of Engineering and Technology in Coimbatore,
+    pursuing an undergraduate degree in BE Electronics and Communication Engineering.
+    My goal is to leverage my knowledge and skills to contribute to innovative projects and excel in the software industry.
+</p>
+
+
+
+<div class="social-container">
+    <a href="https://x.com/home"><i class="fab fa-twitter icon icon1"></i></a>
+    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"><i class="fab fa-linkedin icon icon2"></i></a>
+    <a href="https://github.com/Subash1904"><i class="fab fa-github icon icon3"></i></a>
+    <a href="https://www.facebook.com/"><i class="fab fa-facebook icon icon4"></i></a>
+    <a href="https://www.instagram.com/"><i class="fab fa-instagram icon icon5"></i></a>
+</div>
+
 </body>
 </html>
